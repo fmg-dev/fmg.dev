@@ -1,0 +1,61 @@
+.work {
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #2e3c50;
+    
+    &__card {
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba($color: #eee, $alpha: 1);
+        
+        img {
+            width: 320px;
+            height: 220px;
+            object-fit: contain;
+        }
+
+        h4 {
+            font-size: 20px;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        &__buttons {
+            display: flex;
+            align-items: center;
+            a {
+                color: #2e3c50;
+                margin-left: 10px;
+                :hover {
+                    background-color: #2e3c50;
+                    color: white;
+                }
+                button {
+                    color: #2e3c50;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    padding: 4px;
+                    width: 80px;
+                    border: none;
+                    background: none;
+                    border-radius: 20px;
+                    border: 1px solid #2e3c50;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+    }
+
+}
