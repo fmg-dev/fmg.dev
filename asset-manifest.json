@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fmg.dev/static/css/main.8bff9fa1.css",
+    "main.js": "/fmg.dev/static/js/main.ed1b1320.js",
+    "index.html": "/fmg.dev/index.html",
+    "main.8bff9fa1.css.map": "/fmg.dev/static/css/main.8bff9fa1.css.map",
+    "main.ed1b1320.js.map": "/fmg.dev/static/js/main.ed1b1320.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bff9fa1.css",
+    "static/js/main.ed1b1320.js"
+  ]
+}
