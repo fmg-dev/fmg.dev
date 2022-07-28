@@ -14,7 +14,7 @@ function About() {
           <p>I'm a front-end developer. I develop projects with React.</p>
         </div>
         <div className="about__left__buttons">
-          <a href="./FatihMehmetGünFrontendCV.pdf" download>
+          <a href="/FatihMehmetGünFrontendCV.pdf"  download>
             <button>CV</button>
           </a>
 
